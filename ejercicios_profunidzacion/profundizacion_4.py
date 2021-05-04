@@ -46,3 +46,22 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Comencemos a ponernos serios')
 # Empezar aquí la resolución del ejercicio
+
+print('escriba el nombre completo del individuo:')
+persona_1 = str(input())
+
+print('escriba el nombre completo del supuesto pariente:')
+persona_2 = str(input())
+
+nombre_persona_1, apellido_persona_1 = persona_1.split(' ')
+nombre_persona_2, apellido_persona_2 = persona_2.split(' ')
+
+
+if (apellido_persona_2 == apellido_persona_1):
+  print('¡Son parientes!')
+else:
+    print('No se haya el parentesco')
+
+
+
+
